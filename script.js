@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/products';
+const API_URL = 'http://18.222.254.78:3000/products';
 const form = document.getElementById('product-form');
 const list = document.getElementById('product-list');
 const toggleBtn = document.getElementById('toggle-form-btn');
