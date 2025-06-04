@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerenciador de Produtos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Produtos Cadastrados</h1>
+
+    <form id="product-form" class="hidden">
+      <input type="text" id="name" placeholder="Nome do produto" required />
+      <input type="text" id="description" placeholder="Descrição" required />
+      <input type="number" id="price" placeholder="Preço" required />
+      <button type="submit">Salvar</button>
+    </form>
+
+    <ul id="product-list"></ul>
+    <button id="toggle-form-btn" class="add-btn">Adicionar Produto</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
